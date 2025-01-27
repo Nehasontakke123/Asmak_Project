@@ -1,0 +1,35 @@
+
+.seafood {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px;
+  background-color: #f9f9f9; /* Light background for contrast */
+  gap: 30px; /* Space between text and image */
+}
+
+
+.seafood .text-container {
+  max-width: 50%; /* Restricts the width of the text section */
+}
+
+.seafood .heading {
+  font-size: 3rem; /* Large heading */
+  color: #6a9abf; /* Soft blue color */
+  margin-bottom: 20px; /* Space below the heading */
+  font-family: 'Arial', sans-serif; /* Optional for styling */
+}
+
+.seafood p {
+  font-size: 1.2rem;
+  line-height: 1.8; /* Adjust line height for better readability */
+  color: #333; /* Darker text color for readability */
+  margin-bottom: 20px; /* Space below the paragraph */
+}
+
+.seafood-img {
+  max-width: 45%; /* Restrict the image width */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 8px; /* Rounded corners for the image */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for a polished look */
+}

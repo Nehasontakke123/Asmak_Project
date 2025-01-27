@@ -1,0 +1,32 @@
+.image-counter-overlay {
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.overlay-content {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  display: flex;
+  gap: 20px;
+  border-radius: 10px;
+}
+
+.counter-item {
+  text-align: center;
+  color: #fff;
+}
+
+.counter-number {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.counter-title {
+  margin-top: 10px;
+  font-size: 1rem;
+}

@@ -1,0 +1,61 @@
+/* Styles for the image  */
+/* Counter Component Styling */
+.counter {
+  text-align: center;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.counter:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.counter1img {
+  width: 100%;
+  border-radius: 10px;
+  /* border: 2px solid ; */
+  height: 600px;
+  
+}
+
+.counter p {
+  font-size: 16px;
+  color: #333;
+  margin-top: 15px;
+  line-height: 1.6;
+  font-weight: 500;
+}
+
+/* ImgCounter Section */
+.img-counter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  background-color: #eef6f9;
+}
+
+@media (max-width: 768px) {
+  .img-counter {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .counter img {
+    width: 100%;
+  }
+}
+  
+
+
+
+
+
+
+
+
+ 

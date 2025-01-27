@@ -1,0 +1,55 @@
+
+/* DiscoverProducts.css */
+
+.discover-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+.discover-card {
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  overflow: hidden;
+  text-align: center;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.discover-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.discover-card h4 {
+  font-size: 20px;
+  margin: 15px 0 5px;
+  color: #333;
+  font-weight: bold;
+}
+
+.discover-card p {
+  font-size: 14px;
+  color: #777;
+  margin-bottom: 15px;
+}
+
+.discover-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 768px) {
+  .discover-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 480px) {
+  .discover-container {
+    grid-template-columns: 1fr;
+  }
+}
