@@ -1,6 +1,6 @@
 import React from "react";
 // import "../assets/css/GoogleMap.css";
-import "../assets/css/GoogleMap.css";
+import "../assets/css/Googlemap.css";
 
 const GoogleMap = () => {
   return (
