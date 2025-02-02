@@ -3,8 +3,8 @@
   display: flex;
   justify-content: space-between;
 
-  position: sticky; /* Sticky behavior */
-  top: 0; /* Sticks at the top of the viewport */
+  /* position: sticky; /* Sticky behavior */
+  /* top: 0; Sticks at the top of the viewport */ 
   z-index: 1000; /* Ensure it's above other elements */
   
   align-items: center;
