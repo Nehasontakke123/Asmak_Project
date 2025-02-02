@@ -39,3 +39,43 @@
     color: #333;
   }
   
+
+
+
+  /* Media Queries for Responsiveness */
+
+/* For Tablets */
+@media (max-width: 768px) {
+  .global-card {
+    width: 100px; /* Reduce width for smaller screens */
+    padding: 8px;
+  }
+
+  .global-card img {
+    height: 60px; /* Adjust flag size */
+  }
+
+  .global-card h4 {
+    font-size: 12px; /* Adjust text size */
+  }
+}
+
+/* For Smartphones */
+@media (max-width: 480px) {
+  .global-cards {
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); /* Adjust grid layout */
+  }
+
+  .global-card {
+    width: 90px; /* Further reduce width */
+    padding: 6px;
+  }
+
+  .global-card img {
+    height: 50px; /* Smaller flag height */
+  }
+
+  .global-card h4 {
+    font-size: 11px; /* Smaller font for country name */
+  }
+}

@@ -70,4 +70,53 @@
     background-color: #0056b3;
 }
 
+
+/* Media Queries for Responsiveness */
+
+/* Tablets and larger devices */
+@media (max-width: 768px) {
+    .modal-content {
+        padding: 20px; /* Adjust padding for smaller devices */
+    }
+
+    .form-container h2 {
+        font-size: 1.3rem; /* Adjust heading size */
+    }
+
+    .form-container input {
+        font-size: 0.9rem; /* Slightly smaller input text */
+    }
+
+    .form-container button {
+        font-size: 0.9rem; /* Adjust button font size */
+        padding: 8px 15px; /* Reduce padding */
+    }
+}
+
+/* Smartphones */
+@media (max-width: 480px) {
+    .modal-content {
+        padding: 15px; /* Further reduce padding for small screens */
+        border-radius: 6px; /* Smaller radius for compact design */
+    }
+
+    .form-container h2 {
+        font-size: 1.2rem;
+    }
+
+    .form-container input {
+        font-size: 0.85rem;
+        padding: 8px; /* Smaller padding for input fields */
+    }
+
+    .form-container button {
+        font-size: 0.85rem;
+        padding: 8px 12px;
+    }
+
+    .close-btn {
+        font-size: 20px; /* Slightly smaller close button */
+    }
+}
+
   

@@ -33,3 +33,78 @@
   border-radius: 8px; /* Rounded corners for the image */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for a polished look */
 }
+
+
+
+
+
+
+
+
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+  .seafood {
+    flex-direction: column;
+    text-align: center;
+    padding: 30px;
+  }
+
+  .seafood .text-container {
+    max-width: 80%;
+  }
+
+  .seafood .heading {
+    font-size: 2.5rem;
+  }
+
+  .seafood p {
+    font-size: 1.1rem;
+  }
+
+  .seafood-img {
+    max-width: 80%;
+  }
+}
+
+@media (max-width: 768px) {
+  .seafood {
+    padding: 20px;
+  }
+
+  .seafood .text-container {
+    max-width: 100%;
+  }
+
+  .seafood .heading {
+    font-size: 2rem;
+  }
+
+  .seafood p {
+    font-size: 1rem;
+  }
+
+  .seafood-img {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .seafood {
+    gap: 20px;
+  }
+
+  .seafood .heading {
+    font-size: 1.8rem;
+  }
+
+  .seafood p {
+    font-size: 0.95rem;
+    line-height: 1.6;
+  }
+
+  .seafood-img {
+    border-radius: 5px;
+  }
+}
+

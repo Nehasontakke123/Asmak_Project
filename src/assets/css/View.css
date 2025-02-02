@@ -59,4 +59,89 @@
     font-size: 24px;
     cursor: pointer;
   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /* Responsive Design */
+@media (max-width: 1024px) {
+  .product-card {
+    padding: 14px;
+    margin: 8px;
+  }
+
+  .product-card img {
+    height: 180px;
+  }
+
+  .product-card button {
+    padding: 8px 12px;
+  }
+
+  .modal-content {
+    width: 350px;
+    padding: 25px;
+  }
+}
+
+@media (max-width: 768px) {
+  .product-card {
+    padding: 12px;
+    margin: 6px;
+  }
+
+  .product-card img {
+    height: 160px;
+  }
+
+  .product-card button {
+    padding: 7px 10px;
+  }
+
+  .modal-content {
+    width: 80%;
+    padding: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .product-card {
+    padding: 10px;
+    margin: 5px;
+  }
+
+  .product-card img {
+    height: 140px;
+  }
+
+  .product-card button {
+    padding: 6px 8px;
+  }
+
+  .modal {
+    padding: 10px;
+  }
+
+  .modal-content {
+    width: 90%;
+    padding: 15px;
+  }
+
+  .close-btn {
+    top: 5px;
+    right: 10px;
+    font-size: 20px;
+  }
+}
+
   

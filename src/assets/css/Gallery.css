@@ -83,5 +83,36 @@
     text-align: center;
     font-weight: 500;
   } 
+
+
+  /* Media Queries for Responsiveness */
+
+/* For Tablets */
+@media (max-width: 768px) {
+  .gallery-item {
+    width: 200px; /* Reduce card size for smaller screens */
+    padding: 10px;
+  }
+
+  .gallery-item p {
+    font-size: 13px; /* Adjust text size for smaller screens */
+  }
+}
+
+/* For Smartphones */
+@media (max-width: 480px) {
+  .gallery-item {
+    width: 100%; /* Make items span full width */
+    padding: 10px;
+  }
+
+  .gallery-image {
+    height: auto; /* Ensure image scales properly */
+  }
+
+  .gallery-item p {
+    font-size: 12px; /* Smaller font size for smaller devices */
+  }
+}
   
   

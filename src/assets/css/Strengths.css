@@ -43,4 +43,80 @@
     line-height: 1.5; /* Better line spacing */
     margin: 0;
   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /* Responsive Design */
+@media (max-width: 1024px) {
+  .strength_card {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 15px;
+  }
+
+  .Strenth_Card {
+    padding: 15px;
+  }
+
+  .Strenth_Card h2 {
+    font-size: 1.3rem;
+  }
+
+  .Strenth_Card p {
+    font-size: 0.95rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .strengths {
+    padding: 15px;
+  }
+
+  .strength_card {
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 10px;
+  }
+
+  .Strenth_Card {
+    padding: 12px;
+  }
+
+  .Strenth_Card h2 {
+    font-size: 1.2rem;
+  }
+
+  .Strenth_Card p {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .strength_card {
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+
+  .Strenth_Card {
+    padding: 10px;
+  }
+
+  .Strenth_Card h2 {
+    font-size: 1.1rem;
+  }
+
+  .Strenth_Card p {
+    font-size: 0.85rem;
+  }
+}
+
   

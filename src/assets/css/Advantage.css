@@ -52,6 +52,28 @@
     font-size: 2.9rem;
     color:#8bb4cd;
   }
+
+
+  /* Media Queries for Responsive Design */
+
+/* Tablets and larger smartphones */
+@media (max-width: 768px) {
+  .advcontain {
+    max-width: 45%; /* Two cards per row */
+    margin-bottom: 20px;
+  }
+}
+
+/* Smartphones and smaller devices */
+@media (max-width: 480px) {
+  .advcontain {
+    max-width: 90%; /* Full width for small devices */
+  }
+
+  h1 {
+    font-size: 2.2rem; /* Adjust heading size for smaller screens */
+  }
+}
   
   
   

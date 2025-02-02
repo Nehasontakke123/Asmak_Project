@@ -58,6 +58,43 @@ body {
 
 
 
+/* Tablets */
+@media (max-width: 768px) {
+  .home_slider img {
+    height: 350px;
+  }
+
+  .slider_text h3 {
+    font-size: 1.5rem; /* Further reduce text size */
+  }
+
+  .card-container h2 {
+    font-size: 1.2rem;
+  }
+}
+
+/* Smartphones */
+@media (max-width: 480px) {
+  .home_slider img {
+    height: 300px; /* Smaller height for smaller screens */
+  }
+
+  .slider_text h3 {
+    font-size: 1.2rem; /* Smaller text size for small devices */
+  }
+
+  .card-container h2 {
+    font-size: 1rem; /* Reduce font size for better fit */
+    bottom: 5%; /* Adjust placement */
+  }
+
+  .card-grid {
+    gap: 15px; /* Reduce gap between cards */
+  }
+}
+
+
+
   
   
   

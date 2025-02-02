@@ -66,5 +66,78 @@
     color: #fff;
   }
   
+
+
+
+
+
+
+  /* Responsive Design */
+@media (max-width: 1024px) {
+  .quality-card {
+    width: 380px;
+    height: 300px;
+  }
+
+  .our_global {
+    font-size: 50px;
+  }
+
+  .quality-card p {
+    font-size: 22px;
+  }
+}
+
+@media (max-width: 768px) {
+  .quality-cards {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .quality-card {
+    width: 90%;
+    height: auto;
+  }
+
+  .our_global {
+    font-size: 45px;
+    text-align: center;
+  }
+
+  .quality-card .overlay {
+    padding: 15px;
+  }
+
+  .quality-card h4 {
+    font-size: 12px;
+  }
+
+  .quality-card p {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .quality-card {
+    width: 100%;
+  }
+
+  .our_global {
+    font-size: 35px;
+  }
+
+  .quality-card .overlay {
+    padding: 10px;
+  }
+
+  .quality-card h4 {
+    font-size: 10px;
+  }
+
+  .quality-card p {
+    font-size: 18px;
+  }
+}
+
   
   
