@@ -12,9 +12,6 @@ import cardimg10 from '../assets/images/img1_files/BarracudaFishHD-mOvxFZdk.jpg'
 import cardimg11 from '../assets/images/img1_files/spottedGruntFishHD-Cw3trrEC.jpg';
 import ProductsCard from './ProductsCard';
 
-
-
-
 const Products = () => {
   const card = [
     {
@@ -106,7 +103,6 @@ const Products = () => {
           />
         ))}
       </div>
-
     </>
   );
 };

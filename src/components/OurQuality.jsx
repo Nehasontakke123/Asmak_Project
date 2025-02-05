@@ -50,6 +50,5 @@ const OurQuality = () => {
     </>
   );
 };
-
 export default OurQuality;
 

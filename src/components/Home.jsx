@@ -21,10 +21,6 @@ import  GoogleMap  from "./GoogleMap";
 import FloatingIcons from "./FloatingIcons";
 
 
-
-
-
-
 const Home = () => {
   const sliderData = [
     {
@@ -95,8 +91,6 @@ const Home = () => {
       ))}
     </Carousel>
 
-
-
 <div className="seafood">
   <div className="text-container">
     <h1 className="heading">Seafood Excellence Since Inception</h1>
@@ -111,13 +105,7 @@ const Home = () => {
   <img className="seafood-img" src={fishImg4} alt="Seafood Workers" />
 </div>
 
-
-
-
-
-
-
-      {/* Additional Components */}
+ {/* Additional Components */}
       <CardAdv />
       <Strengths />
       <CountdownSection />
@@ -131,8 +119,6 @@ const Home = () => {
       <OurQuality />
       <GlobalPartners />
       <GoogleMap />
-     
-
     </>
   );
 };

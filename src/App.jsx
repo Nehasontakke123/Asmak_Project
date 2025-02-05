@@ -10,8 +10,6 @@ import Gallary from './components/Gallary';
 import FooterSection from './components/FooterSection';
 
 function App() {
-  
-
   return (
     <>
       <Nav></Nav>

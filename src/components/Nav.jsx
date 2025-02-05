@@ -9,10 +9,6 @@ const Nav = () => {
       {/* Logo Section */}
       <div className='logo'>
         <img src={Image} alt="Company Logo" />
-        {/* <div className='logo-text'>
-          <h1>Asmak</h1>
-          <p>Muscat Int'l LLC</p>
-        </div> */}
       </div>
 
       {/* Navigation Links */}
@@ -33,23 +29,3 @@ const Nav = () => {
 };
 
 export default Nav;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

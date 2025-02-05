@@ -1,7 +1,5 @@
 import React, { useState } from 'react';
 import '../assets/css/Form.css';  // Import the form styling
-import AddImg4 from "../assets/images/img1_files/marketplace-G6fWtQyN.jpg";
-
 
 const Form = () => {
   const [username, setUsername] = useState("");
@@ -20,7 +18,7 @@ const Form = () => {
   return (
     <div className="form-container">
       <h2>Login Form</h2>
-      <img src={AddImg4} alt="" />
+      <img src='' alt="" />
       <form onSubmit={handleSubmit}>
         <label htmlFor="username">Username</label>
         <input
@@ -49,4 +47,6 @@ const Form = () => {
 };
 
 export default Form;  // ✅ Correct default export
+
+
 

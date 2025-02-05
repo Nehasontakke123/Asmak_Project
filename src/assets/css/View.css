@@ -60,20 +60,7 @@
     cursor: pointer;
   }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-  /* Responsive Design */
+/* Responsive Design */
 @media (max-width: 1024px) {
   .product-card {
     padding: 14px;
